@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-03T11:36:32 IST" name="Default suite" finished-at="2023-05-03T11:37:11 IST" duration-ms="38594">
+    <groups>
+    </groups>
+    <test started-at="2023-05-03T11:36:32 IST" name="Default test" finished-at="2023-05-03T11:37:11 IST" duration-ms="38594">
+      <class name="Module1_LoginTest.PBLoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0]" started-at="2023-05-03T11:36:32 IST" name="openBrowser" finished-at="2023-05-03T11:36:48 IST" duration-ms="15728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0]" started-at="2023-05-03T11:36:48 IST" name="loginToApp" finished-at="2023-05-03T11:37:02 IST" duration-ms="13786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyPN()[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0]" started-at="2023-05-03T11:37:02 IST" name="verifyPN" finished-at="2023-05-03T11:37:10 IST" duration-ms="8385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPN -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0]" started-at="2023-05-03T11:37:10 IST" name="logoutFromApp" finished-at="2023-05-03T11:37:10 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPN status=SUCCESS method=PBLoginTest.verifyPN()[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_LoginTest.PBLoginTest@351d00c0]" started-at="2023-05-03T11:37:10 IST" name="closeBrowser" finished-at="2023-05-03T11:37:11 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Module1_LoginTest.PBLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
